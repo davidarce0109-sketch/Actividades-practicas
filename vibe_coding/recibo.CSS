@@ -15,7 +15,7 @@
         }
 
         .recibo{
-            width: 1200px;
+            width: 1700px;
             background: white;
             border: 2px solid #ccc;
             padding: 20px;
@@ -74,9 +74,15 @@
             display: inline-block;
         }
 
+        .whatsapp{
+            width: 40px;
+            height: 30px;
+        }
+
         .telefonos{
+            text-align: center;
             color: #0077cc;
-            font-size: 24px;
+            font-size: 30px;
             margin-top: 10px;
         }
 
@@ -103,9 +109,12 @@
         /* FECHAS */
 
         .fechas{
-            margin-top: 25px;
+            margin-top: 0px;
+            padding: 0px 500px;
             display: flex;
             gap: 60px;
+            width: 20px;
+            text-align: start;
             align-items: center;
             color: #556d00;
             font-size: 30px;
@@ -117,7 +126,7 @@
         }
 
         .box{
-            width: 55px;
+            width: 75px;
             height: 55px;
             border: 3px solid #4d95c7;
         }
@@ -125,7 +134,7 @@
         /* DATOS */
 
         .datos{
-            margin-top: 20px;
+            margin-top: 50px;
             color: #556d00;
             font-size: 28px;
         }
@@ -224,7 +233,7 @@
         /* TOTAL */
 
         .total{
-            width: 320px;
+            width: 350px;
             margin-left: auto;
             display: grid;
             grid-template-columns: 1fr 80px;
@@ -233,8 +242,9 @@
         }
 
         .total div{
+            width: 165px;
             padding: 10px;
-            text-align: center;
+            text-align: start;
             font-size: 32px;
             font-weight: bold;
             color: #556d00;
@@ -247,9 +257,9 @@
         /* FIRMAS */
 
         .firmas{
-            margin-top: 70px;
+            margin-top: 90px;
             display: flex;
-            justify-content: space-around;
+            gap: 120px;
             text-align: center;
             color: #556d00;
             font-size: 28px;
