@@ -27,10 +27,10 @@
             <div class="servicios">
 
                 <div class="fila">
-                    REHABILITACIÓN <span class="check"></span>
-                    ENTRETENIMIENTO <span class="check"></span>
-                    MASAJES <span class="check"></span>
-                    NATACIÓN <span class="check"></span>
+                    REHABILITACIÓN<input type="checkbox" class="check">
+                    ENTRETENIMIENTO <input type="checkbox" class="check">
+                    MASAJES <input type="checkbox" class="check">
+                    NATACIÓN <input type="checkbox" class="check">
                 </div>
 
                 <div class="telefonos">
@@ -41,7 +41,7 @@
 
             <div class="recibo-numero">
                 <h2>RECIBO</h2>
-                <div class="numero">0482</div>
+                <input class="numero">
             </div>
 
         </div>
@@ -55,9 +55,9 @@
             </div>
 
             <div class="boxes">
-                <div class="box"></div>
-                <div class="box"></div>
-                <div class="box"></div>
+                <input type="text" class="box">
+                <input type="text" class="box">
+                <input type="text" class="box">
             </div>
 
             <div>
@@ -65,9 +65,9 @@
             </div>
 
             <div class="boxes">
-                <div class="box"></div>
-                <div class="box"></div>
-                <div class="box"></div>
+               <input type="text" class="box">
+                <input type="text" class="box">
+                <input type="text" class="box">
             </div>
 
         </div>
@@ -78,31 +78,31 @@
 
             <div class="fila-datos">
                 Señor (es):
-                <span class="linea nombre"></span>
+                <input type="text" class="linea nombre">
 
                 Dirección:
-                <span class="linea direccion"></span>
+                <input type="text" class="linea direccion">
             </div>
 
             <div class="fila-datos">
 
                 Teléfono:
-                <span class="linea telefono"></span>
+                <input type="text" class="linea telefono">
 
                 Ciudad:
-                <span class="linea ciudad"></span>
+                <input type="text" class="linea ciudad">
 
                 Edad:
-                <span class="linea edad"></span>
+                <input type="text" class="linea edad">
 
                 Peso:
-                <span class="linea peso"></span>
+                <input type="text" class="linea peso">
 
                 Talla:
-                <span class="linea talla"></span>
+                <input type="text" class="linea talla">
 
                 PPL:
-                <span class="linea ppl"></span>
+                <input type="text" class="linea ppl">
 
             </div>
 
@@ -123,9 +123,14 @@
             <div class="tabla-body">
 
                 <div class="descripcion">
-
+                    <div>
+                        <textarea type="text" class="texto_observaciones"></textarea>
+                    </div>
                     <div class="observaciones">
                         OBSERVACIONES
+                        <div>
+                            <textarea class="texto_observaciones"></textarea>
+                        </div>
                     </div>
 
                 </div>
@@ -133,7 +138,7 @@
                 <div>
 
                     <div class="total-box"></div>
-
+                    <textarea class="texto_total-box"></textarea>
                 </div>
 
             </div>
@@ -145,28 +150,31 @@
         <div class="total">
 
             <div>TOTAL</div>
-
-            <div>$</div>
+            <div>$<input class="texto_total"></div>
 
         </div>
 
-        <!-- FIRMAS -->
+        <!zz-- FIRMAS -->
 
         <div class="firmas">
 
             <div>
-                <div class="firma-linea"></div>
+                <div class="firma-linea"><input class="modulo_firma"></div>
                 FIRMA DEL INSTRUCTOR
             </div>
 
             <div>
-                <div class="firma-linea"></div>
+                <div class="firma-linea"><input class="modulo_firma"></div>
                 FIRMA DEL USUARIO
             </div>
 
         </div>
 
     </div>
+
+
+   
+
 
 </body>
 </html>
